@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TodoItemsViewController: UITableViewController {
+class TodoItemsViewController: UIViewController {
 
-//    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet weak var detailDescriptionLabel: UILabel!
 
     func configureView() {
         // Update the user interface for the detail item.
