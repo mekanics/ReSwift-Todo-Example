@@ -129,7 +129,7 @@
 		504CDFF81D8ADCEC00D16314 /* NullToDoTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullToDoTableDataSource.swift; sourceTree = "<group>"; };
 		504CDFFA1D8ADEFA00D16314 /* PatchingResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchingResponder.swift; sourceTree = "<group>"; };
 		504CDFFD1D8ADF3400D16314 /* KeyboardEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardEventHandler.swift; sourceTree = "<group>"; };
-		50703AE31D7EACB8001DAF45 /* ReSwift-Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReSwift-Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50703AE31D7EACB8001DAF45 /* ReSwift-Todo-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReSwift-Todo-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50703AE61D7EACB8001DAF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50703AE81D7EACB8001DAF45 /* ToDoDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDocument.swift; sourceTree = "<group>"; };
 		50703AEB1D7EACB8001DAF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ToDoListWindowController.xib; sourceTree = "<group>"; };
@@ -287,9 +287,10 @@
 		50703ADA1D7EACB8001DAF45 = {
 			isa = PBXGroup;
 			children = (
-				50703AE51D7EACB8001DAF45 /* ReSwift-Todo */,
-				50703AFA1D7EACB8001DAF45 /* ReSwift-TodoTests */,
+				50703AE51D7EACB8001DAF45 /* ReSwift-Todo-Mac */,
 				B1161EE91DD602F000BDF043 /* ReSwift-Todo-iOS */,
+				B1161EFC1DD6037300BDF043 /* ReSwift-Todo-Shared */,
+				50703AFA1D7EACB8001DAF45 /* ReSwift-TodoTests */,
 				50703AE41D7EACB8001DAF45 /* Products */,
 				50703B101D7EADC2001DAF45 /* Frameworks */,
 			);
@@ -298,14 +299,14 @@
 		50703AE41D7EACB8001DAF45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50703AE31D7EACB8001DAF45 /* ReSwift-Todo.app */,
+				50703AE31D7EACB8001DAF45 /* ReSwift-Todo-Mac.app */,
 				50703AF71D7EACB8001DAF45 /* ReSwift-TodoTests.xctest */,
 				B1161EE81DD602F000BDF043 /* ReSwift-Todo-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50703AE51D7EACB8001DAF45 /* ReSwift-Todo */ = {
+		50703AE51D7EACB8001DAF45 /* ReSwift-Todo-Mac */ = {
 			isa = PBXGroup;
 			children = (
 				50703AE61D7EACB8001DAF45 /* AppDelegate.swift */,
@@ -319,7 +320,7 @@
 				504CDFDD1D8A6DA800D16314 /* Util */,
 				50703AF21D7EACB8001DAF45 /* Info.plist */,
 			);
-			path = "ReSwift-Todo";
+			path = "ReSwift-Todo-Mac";
 			sourceTree = "<group>";
 		};
 		50703AFA1D7EACB8001DAF45 /* ReSwift-TodoTests */ = {
@@ -479,12 +480,19 @@
 			path = "ReSwift-Todo-iOS";
 			sourceTree = "<group>";
 		};
+		B1161EFC1DD6037300BDF043 /* ReSwift-Todo-Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ReSwift-Todo-Shared";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50703AE21D7EACB8001DAF45 /* ReSwift-Todo */ = {
+		50703AE21D7EACB8001DAF45 /* ReSwift-Todo-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50703B001D7EACB8001DAF45 /* Build configuration list for PBXNativeTarget "ReSwift-Todo" */;
+			buildConfigurationList = 50703B001D7EACB8001DAF45 /* Build configuration list for PBXNativeTarget "ReSwift-Todo-Mac" */;
 			buildPhases = (
 				50703ADF1D7EACB8001DAF45 /* Sources */,
 				50703AE01D7EACB8001DAF45 /* Frameworks */,
@@ -495,9 +503,9 @@
 			);
 			dependencies = (
 			);
-			name = "ReSwift-Todo";
+			name = "ReSwift-Todo-Mac";
 			productName = "ReSwift-Todo";
-			productReference = 50703AE31D7EACB8001DAF45 /* ReSwift-Todo.app */;
+			productReference = 50703AE31D7EACB8001DAF45 /* ReSwift-Todo-Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
 		50703AF61D7EACB8001DAF45 /* ReSwift-TodoTests */ = {
@@ -573,7 +581,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50703AE21D7EACB8001DAF45 /* ReSwift-Todo */,
+				50703AE21D7EACB8001DAF45 /* ReSwift-Todo-Mac */,
 				50703AF61D7EACB8001DAF45 /* ReSwift-TodoTests */,
 				B1161EE71DD602F000BDF043 /* ReSwift-Todo-iOS */,
 			);
@@ -698,7 +706,7 @@
 /* Begin PBXTargetDependency section */
 		50703AF91D7EACB8001DAF45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50703AE21D7EACB8001DAF45 /* ReSwift-Todo */;
+			target = 50703AE21D7EACB8001DAF45 /* ReSwift-Todo-Mac */;
 			targetProxy = 50703AF81D7EACB8001DAF45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -951,7 +959,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50703B001D7EACB8001DAF45 /* Build configuration list for PBXNativeTarget "ReSwift-Todo" */ = {
+		50703B001D7EACB8001DAF45 /* Build configuration list for PBXNativeTarget "ReSwift-Todo-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50703B011D7EACB8001DAF45 /* Debug */,
