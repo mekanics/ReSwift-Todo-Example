@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3456D1FB1DD6031600AD7C70 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456D1F91DD6031600AD7C70 /* ToDoListViewController.swift */; };
+		3456D1FC1DD6031600AD7C70 /* TodoItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456D1FA1DD6031600AD7C70 /* TodoItemsViewController.swift */; };
+		3456D2021DD6033E00AD7C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3456D1FE1DD6033E00AD7C70 /* Main.storyboard */; };
+		3456D2031DD6033E00AD7C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3456D1FF1DD6033E00AD7C70 /* Assets.xcassets */; };
+		3456D2041DD6033E00AD7C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3456D2011DD6033E00AD7C70 /* LaunchScreen.storyboard */; };
 		4DB25AB71DD5FD9B004601C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25AB61DD5FD9B004601C9 /* AppDelegate.swift */; };
-		4DB25AB91DD5FD9B004601C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25AB81DD5FD9B004601C9 /* ViewController.swift */; };
-		4DB25ABC1DD5FD9B004601C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25ABA1DD5FD9B004601C9 /* Main.storyboard */; };
-		4DB25ABE1DD5FD9B004601C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25ABD1DD5FD9B004601C9 /* Assets.xcassets */; };
-		4DB25AC11DD5FD9B004601C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25ABF1DD5FD9B004601C9 /* LaunchScreen.storyboard */; };
 		502C046F1D87D9580032B7F3 /* ToDoListSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C046E1D87D9580032B7F3 /* ToDoListSerializer.swift */; };
 		502C04711D87D9660032B7F3 /* ToDoListSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C04701D87D9660032B7F3 /* ToDoListSerializerTests.swift */; };
 		502C04731D87DF040032B7F3 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C04721D87DF040032B7F3 /* ErrorHandling.swift */; };
@@ -103,12 +104,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3456D1F91DD6031600AD7C70 /* ToDoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		3456D1FA1DD6031600AD7C70 /* TodoItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemsViewController.swift; sourceTree = "<group>"; };
+		3456D1FD1DD6033E00AD7C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3456D1FF1DD6033E00AD7C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../ReSwift-Todo-UI/ReSwift-Todo-UI/Assets.xcassets"; sourceTree = "<group>"; };
+		3456D2001DD6033E00AD7C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DB25AB41DD5FD9B004601C9 /* ReSwift-Todo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReSwift-Todo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB25AB61DD5FD9B004601C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DB25AB81DD5FD9B004601C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DB25ABB1DD5FD9B004601C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DB25ABD1DD5FD9B004601C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DB25AC01DD5FD9B004601C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DB25AC21DD5FD9B004601C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		502C046E1D87D9580032B7F3 /* ToDoListSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListSerializer.swift; sourceTree = "<group>"; };
 		502C04701D87D9660032B7F3 /* ToDoListSerializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListSerializerTests.swift; sourceTree = "<group>"; };
@@ -209,10 +211,11 @@
 			isa = PBXGroup;
 			children = (
 				4DB25AB61DD5FD9B004601C9 /* AppDelegate.swift */,
-				4DB25AB81DD5FD9B004601C9 /* ViewController.swift */,
-				4DB25ABA1DD5FD9B004601C9 /* Main.storyboard */,
-				4DB25ABD1DD5FD9B004601C9 /* Assets.xcassets */,
-				4DB25ABF1DD5FD9B004601C9 /* LaunchScreen.storyboard */,
+				3456D1F91DD6031600AD7C70 /* ToDoListViewController.swift */,
+				3456D1FA1DD6031600AD7C70 /* TodoItemsViewController.swift */,
+				3456D1FE1DD6033E00AD7C70 /* Main.storyboard */,
+				3456D1FF1DD6033E00AD7C70 /* Assets.xcassets */,
+				3456D2011DD6033E00AD7C70 /* LaunchScreen.storyboard */,
 				4DB25AC21DD5FD9B004601C9 /* Info.plist */,
 			);
 			path = "ReSwift-Todo-iOS";
@@ -582,9 +585,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB25AC11DD5FD9B004601C9 /* LaunchScreen.storyboard in Resources */,
-				4DB25ABE1DD5FD9B004601C9 /* Assets.xcassets in Resources */,
-				4DB25ABC1DD5FD9B004601C9 /* Main.storyboard in Resources */,
+				3456D2041DD6033E00AD7C70 /* LaunchScreen.storyboard in Resources */,
+				3456D2031DD6033E00AD7C70 /* Assets.xcassets in Resources */,
+				3456D2021DD6033E00AD7C70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +617,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB25AB91DD5FD9B004601C9 /* ViewController.swift in Sources */,
+				3456D1FC1DD6031600AD7C70 /* TodoItemsViewController.swift in Sources */,
+				3456D1FB1DD6031600AD7C70 /* ToDoListViewController.swift in Sources */,
 				4DB25AB71DD5FD9B004601C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -700,20 +704,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DB25ABA1DD5FD9B004601C9 /* Main.storyboard */ = {
+		3456D1FE1DD6033E00AD7C70 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DB25ABB1DD5FD9B004601C9 /* Base */,
+				3456D1FD1DD6033E00AD7C70 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../../ReSwift-Todo-UI/ReSwift-Todo-UI";
 			sourceTree = "<group>";
 		};
-		4DB25ABF1DD5FD9B004601C9 /* LaunchScreen.storyboard */ = {
+		3456D2011DD6033E00AD7C70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DB25AC01DD5FD9B004601C9 /* Base */,
+				3456D2001DD6033E00AD7C70 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "../../ReSwift-Todo-UI/ReSwift-Todo-UI";
 			sourceTree = "<group>";
 		};
 		50703AEA1D7EACB8001DAF45 /* ToDoListWindowController.xib */ = {
@@ -750,6 +756,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -767,6 +774,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -943,6 +951,7 @@
 				4DB25AC41DD5FD9B004601C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50703ADE1D7EACB8001DAF45 /* Build configuration list for PBXProject "ReSwift-Todo" */ = {
 			isa = XCConfigurationList;
